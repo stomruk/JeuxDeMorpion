@@ -1,0 +1,56 @@
+td{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    font-size: 32px;
+    text-align: center;
+    background-size: contain;
+}
+#win{
+    display: none;
+}
+#lose{
+    display: none;
+}
+#getID{
+    position: absolute;
+    left: 910px;
+    top: 220px;
+    height: 300px;
+    width: 838px;
+}
+button{
+    position: absolute;
+    left: 910px;
+    top: 700px;
+    height: 150px;
+    width: 350px;
+    font-size: 60px;
+}
+p{
+    font-size: 50px;
+}
+#BoxArray{
+    position: absolute;
+    left: 950px;
+    bottom: 850px;
+}
+#MyArray{
+    position: absolute;
+    left: 950px;
+    bottom: 775px;
+}
+#BotArray{
+    position: absolute;
+    left: 950px;
+    bottom: 700px;
+}
+#brain{
+    border: 5px solid black;
+    z-index: 1;
+    position: absolute;
+    height: 850px;
+    width: 650px;
+    left: 750px;
+    bottom: 100px;
+}

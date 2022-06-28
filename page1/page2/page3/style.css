@@ -1,0 +1,76 @@
+td{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    font-size: 32px;
+    text-align: center;
+    background-size: contain;
+}
+#win{
+    display: none;
+}
+#lose{
+    display: none;
+}
+#getID{
+    position: absolute;
+    left: 910px;
+    top: 210px;
+    height: 405px;
+    width: 738px;
+}
+button{
+    position: absolute;
+    left: 910px;
+    top: 650px;
+    height: 150px;
+    width: 350px;
+    font-size: 60px;
+}
+p{
+    font-size: 50px;
+}
+#BoxArray{
+    position: absolute;
+    left: 950px;
+    bottom: 800px;
+}
+#MyArray{
+    position: absolute;
+    left: 950px;
+    bottom: 725px;
+}
+#splice{
+    height: 40px;
+    width: 95px;
+    background-color: red;
+    position: absolute;
+    left: 1000px;
+    bottom: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+#indexof{
+    height: 40px;
+    width: 115px;
+    background-color: red;
+    position: absolute;
+    left: 1125px;
+    bottom: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+#spliceimg{
+    position: absolute;
+    bottom: 150px;
+    left: 450px;
+    border: 5px solid black;
+    display: none;
+}
+#indexofimg{
+    position: absolute;
+    bottom: 150px;
+    left: 450px;
+    border: 5px solid black;
+    display: none;
+}

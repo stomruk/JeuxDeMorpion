@@ -1,0 +1,88 @@
+
+td{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    background-size: contain;
+    cursor: pointer;
+}
+#win{
+    position: absolute;
+    bottom: 0px;
+    left: 750px;
+    height: 750px;
+    width: 1000px;
+    display: none;
+}
+#lose{
+    position: absolute;
+    bottom: 100px;
+    left: 850px;
+    height: 750px;
+    width: 1000px;
+    display: none;
+}
+button{
+    height: 100px;
+    width: 200px;
+    font-size: 32px;
+}
+
+@keyframes anim {
+    from{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(0.75,0.75);
+    }
+    to{
+        transform: scale(1,1);
+    }
+    
+}
+#discolight1{
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background-color: red;
+    animation: anim2 1s linear infinite;
+    display: none;
+}
+#discolight2{
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    left: 50px;
+    background-color: blue;
+    animation: anim3 1s linear infinite;
+    display: none;
+}
+
+@keyframes anim2 {
+    from{
+        transform: rotateX(-45deg);
+        opacity: 1;
+    }
+    50%{
+        transform: rotateY(45deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: rotateX(-45deg);
+        opacity: 1;
+    }    
+}
+@keyframes anim3 {
+    from{
+        transform: rotateX(-32deg);
+        opacity: 1;
+    }
+    50%{
+        transform: rotateY(45deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: rotateX(36deg);
+        opacity: 1;
+    }    
+}
